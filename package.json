@@ -1,0 +1,37 @@
+{
+  "name": "@theroyalwhee0/counters",
+  "version": "0.0.1",
+  "description": "Wrapping Numeric Counters",
+  "main": "index.js",
+  "author": "Adam Mill <hismajesty@theroyalwhee.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/theroyalwhee0/counters#readme",
+  "keywords": [
+    "counter",
+    "sequence"
+  ],
+  "bugs": {
+    "url": "https://github.com/theroyalwhee0/counters/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theroyalwhee0/counters.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "eslint": "7.18.0",
+    "mocha": "8.2.1",
+    "sinon": "9.2.4"
+  },
+  "scripts": {
+    "test": "mocha --sort --recursive --check-leaks",
+    "test-watch": "mocha --watch --reporter=dot --sort --recursive --check-leaks",
+    "lint": "eslint src/ test/"
+  },
+  "dependencies": {
+    "@theroyalwhee0/istype": "1.0.0"
+  }
+}
