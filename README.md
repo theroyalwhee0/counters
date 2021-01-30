@@ -39,8 +39,7 @@ Running ```npm run test``` will run the test suite under Mocha. Running ```npm r
   - Initial release.
 
 
-
 ## Legal & License
 Copyright 2021 Adam Mill
 
-The library is released under Apache 2 license.  See LICENSE for more details.
+This library is released under Apache 2 license. See [LICENSE](https://github.com/theroyalwhee0/dynasty/blob/master/LICENSE) for more details.
