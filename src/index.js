@@ -23,7 +23,7 @@ const UINT53MAX = 9007199254740991;   // (2**53)-1;
  * Build counter generators.
  * @param {number} min Minimum value.
  * @param {number} max Maximum value.
- * @return {function*} A generator function.
+ * @returns {function*} A generator function.
  */
 function counterFactory(min, max) {
   return function* counter(options) {
