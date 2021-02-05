@@ -1,7 +1,7 @@
 # @theroyalwhee0/counters
 
 ## Wrapping Numeric Counters
-Creates iterable sequences of 8/16/32/53 bits wrapping with the maximum value is exceeded. The sequences start at 1 (instead of 0) to prevent usage errors.
+Creates iterable sequences of 8/16/32/53 bits wrapping when the maximum value is exceeded. The sequences start at 1 (instead of 0) to prevent usage errors.
 
 ## Installation
 npm install @theroyalwhee0/counters
