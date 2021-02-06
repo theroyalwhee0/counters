@@ -11,6 +11,10 @@ npm install @theroyalwhee0/counters
 yarn add @theroyalwhee0/counters
 
 
+## Documentation
+[API Documentation](https://theroyalwhee0.github.io/counters/)
+
+
 ## Usage
 ```
 const { uint8Counter } = require('./index');
