@@ -1,5 +1,8 @@
 /**
- * @theroyalwhee0/counters:index.js
+ * @file Wrapping Numeric Counters
+ * @author Adam Mill <hismajesty@theroyalwhee.com>
+ * @copyright Copyright 2021 Adam Mill
+ * @license Apache-2.0
  */
 
 /**

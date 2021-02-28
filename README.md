@@ -39,7 +39,9 @@ Running ```npm run test``` will run the test suite under Mocha. Running ```npm r
 
 
 ## History
-- 2021-01-27 - v0.0.1
+- v0.0.2
+  - Change docs to not have date.
+- v0.0.1 2021-01-27
   - Initial release.
 
 
