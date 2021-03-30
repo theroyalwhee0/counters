@@ -30,7 +30,7 @@ for(let idx=0; idx < 255; idx++) {
 ```
 
 ## Testing.
-Running ```npm run test``` will run the test suite under Mocha. Running ```npm run test-watch``` will run the test suite in watch mode.
+Running ```npm run test``` will run the test suite. Running ```npm run test-watch``` will run the test suite in watch mode.
 
 
 ## Links
@@ -39,6 +39,8 @@ Running ```npm run test``` will run the test suite under Mocha. Running ```npm r
 
 
 ## History
+- v0.0.3 - 2021-03-30
+  - Port to TypeScript.
 - v0.0.2
   - Change docs to not have date.
 - v0.0.1 2021-01-27
