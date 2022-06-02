@@ -4,11 +4,11 @@
 Creates iterable sequences of 8/16/32/53 bits wrapping when the maximum value is exceeded. The sequences start at 1 (instead of 0) to prevent usage errors.
 
 ## Installation
-npm install @theroyalwhee0/counters
+`npm install @theroyalwhee0/counters`
 
 *or*
 
-yarn add @theroyalwhee0/counters
+`yarn add @theroyalwhee0/counters`
 
 
 ## Documentation
@@ -39,6 +39,8 @@ Running ```npm run test``` will run the test suite. Running ```npm run test-watc
 
 
 ## History
+- v1.0.0 - 2022-06-02
+  - Bump depends for security.
 - v0.0.3 - 2021-03-30
   - Port to TypeScript.
 - v0.0.2
@@ -48,6 +50,6 @@ Running ```npm run test``` will run the test suite. Running ```npm run test-watc
 
 
 ## Legal & License
-Copyright 2021 Adam Mill
+Copyright 2021-2022 Adam Mill
 
 This library is released under Apache 2 license. See [LICENSE](https://github.com/theroyalwhee0/dynasty/blob/master/LICENSE) for more details.
