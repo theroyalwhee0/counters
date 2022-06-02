@@ -1,6 +1,6 @@
 {
   "name": "@theroyalwhee0/counters",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Wrapping Numeric Counters",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -40,7 +40,7 @@
     "lint": "eslint src/ test/",
     "test-watch": "npm run build && concurrently 'tsc --watch' 'jest --watchAll'",
     "package": "npm run clean-build && npm run dryrun",
-    "docs": "jsdoc --pedantic --readme ./README.md --recurse --destination docs/ dist/",
+    "docs": "jsdoc -c .jsdoc.conf.json",
     "clean-build": "mkdir -p dist/ build/ docs/ && rm -fR build/* && rm -f dist/* && npm run build && npm run docs",
     "dryrun": "npm prune && npm audit && npm run lint && npm run docs && npm test && npm publish --dry-run",
     "audit-prod": "npm audit --omit dev --omit optional"
